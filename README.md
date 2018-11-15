@@ -4,8 +4,6 @@
 [![npm](https://flat.badgen.net/npm/v/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
 [![David](https://flat.badgen.net/david/dev/fltwk/grunt-po2mo)](https://david-dm.org/fltwk/grunt-po2mo?type=dev)
 
-# grunt-po2mo
-
 Compiles `.po` files into binary `.mo` files with `msgfmt`
 
 ## Installation
