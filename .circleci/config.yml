@@ -10,9 +10,6 @@ jobs:
           name: Restore npm Package Data Cache
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
-          name: Install Grunt CLI
-          command: npm install -g grunt-cli
-      - run:
           name: Install Node dependencies
           command: npm install
       - save_cache:
