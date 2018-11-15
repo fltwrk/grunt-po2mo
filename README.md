@@ -6,10 +6,31 @@
 
 Compiles `.po` files into binary `.mo` files with `msgfmt`
 
+## Prerequisites
+
+You will need `msgfmt` installed in order for this task to work
+
+### macOS
+
+```sh
+$ brew install gettext
+$ brew link --force gettext
+```
+
+### Linux
+
+```sh
+# Debian
+$ sudo apt-get install gettext
+
+# Fedora
+$ dnf install gettext-devel
+```
+
 ## Installation
 
 ```sh
-npm install @fltwk/grunt-po2mo --save-dev
+$ npm install @fltwk/grunt-po2mo --save-dev
 ```
 
 ## Usage
