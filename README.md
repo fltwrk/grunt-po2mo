@@ -41,9 +41,6 @@ grunt.loadNpmTasks('@fltwk/grunt-po2mo');
 
 grunt.initConfig({
   po2mo: {
-    options: {
-      deleteSrc: true
-    },
     files: {
       src: 'languages/de_AT.po',
       dest: 'languages/de_AT.mo',
