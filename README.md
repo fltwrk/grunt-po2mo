@@ -47,3 +47,7 @@ Will delete the source `.po` file.
 
 - [MicheleBertoli](https://github.com/MicheleBertoli/)
 - [floatwork_](https://github.com/fltwk/)
+
+## License
+
+This work is licensed under [The MIT License](LICENSE)
