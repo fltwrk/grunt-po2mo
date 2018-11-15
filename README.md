@@ -1,7 +1,7 @@
 # grunt-po2mo
 
-[![npm](https://flat.badgen.net/npm/license/makensis)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
-[![npm](https://flat.badgen.net/npm/v/makensis)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
+[![npm](https://flat.badgen.net/npm/license/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
+[![npm](https://flat.badgen.net/npm/v/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
 [![David](https://flat.badgen.net/david/dev/fltwk/grunt-po2mo)](https://david-dm.org/fltwk/grunt-po2mo?type=dev)
 
 # grunt-po2mo
@@ -19,7 +19,7 @@ npm install @fltwk/grunt-po2mo --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-po2mo');
+grunt.loadNpmTasks('@fltwk/grunt-po2mo');
 ```
 
 In your project's Gruntfile, add a section named `po2mo` to the data object passed into `grunt.initConfig()`.
