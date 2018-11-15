@@ -1,0 +1,9 @@
+# dependencies
+bower_components/
+node_modules/
+vendor/
+
+# package manager files
+npm-debug.log*
+shrinkwrap.yaml
+yarn-error.log
