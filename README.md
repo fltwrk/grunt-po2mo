@@ -6,7 +6,7 @@
 
 # grunt-po2mo
 
-Compiles .po files into binary .mo files with `msgfmt`
+Compiles `.po` files into binary `.mo` files with `msgfmt`
 
 ## Installation
 
@@ -16,61 +16,34 @@ npm install @fltwk/grunt-po2mo --save-dev
 
 ## Usage
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
-
 ```js
 grunt.loadNpmTasks('@fltwk/grunt-po2mo');
-```
 
-In your project's Gruntfile, add a section named `po2mo` to the data object passed into `grunt.initConfig()`.
-
-```
 grunt.initConfig({
   po2mo: {
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    }
+    options: {
+      deleteSrc: true
+    },
+    files: {
+      src: 'languages/de_AT.po',
+      dest: 'languages/de_AT.mo',
+    },
   }
-})
+});
+
+grunt.registerTask('default', ['po2mo']);
 ```
 
 ### Options
 
-#### options.deleteSrc
+#### `options.deleteSrc`
 
-Type: `Boolean`
+Type: `bool`
 Default value: `false`
 
-Will delete the source .po file.
+Will delete the source `.po` file.
 
-### Examples
-
-```
-grunt.initConfig({
-  po2mo: {
-    files: {
-      src: 'languages/fr.po',
-      dest: 'languages/fr.mo',
-    },
-  },
-})
-```
-
-```
-grunt.initConfig({
-  po2mo: {
-    files: {
-      options: {
-        deleteSrc: true
-      },
-      src: 'languages/fr.po',
-      dest: 'languages/fr.mo',
-    },
-  },
-})
-```
-
-## Author
+## Authors
 
 - [MicheleBertoli](https://github.com/MicheleBertoli/)
 - [floatwork_](https://github.com/fltwk/)
