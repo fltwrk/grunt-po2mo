@@ -1,10 +1,5 @@
 version: 2
-machine:
-  pre:
-    - curl -s https://packagecloud.io/install/repositories/circleci/trusty/script.deb.sh | sudo bash
-    - sudo apt-get install circleci-php-7.0.4=4
-  php:
-    version: 7.0.4
+
 jobs:
   build:
     working_directory: ~/repo
@@ -15,6 +10,9 @@ jobs:
       - restore_cache:
           name: Restore npm Package Data Cache
           key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install gettext
+          command: sudo apt-get install gettext
       - run:
           name: Install Grunt CLI
           command: sudo npm install -g grunt-cli
