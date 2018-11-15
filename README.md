@@ -70,3 +70,8 @@ grunt.initConfig({
   },
 })
 ```
+
+## Author
+
+- [MicheleBertoli](https://github.com/MicheleBertoli/)
+- [Team floatwork_](https://github.com/fltwk/)
