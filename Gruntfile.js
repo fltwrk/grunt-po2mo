@@ -41,8 +41,7 @@ module.exports = function(grunt) {
     // Unit tests.
     nodeunit: {
       tests: ['test/*_test.js'],
-    },
-
+    }
   });
 
   // Actually load this plugin's task(s).
