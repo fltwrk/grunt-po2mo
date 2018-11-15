@@ -2,6 +2,7 @@
 
 [![npm](https://flat.badgen.net/npm/license/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
 [![npm](https://flat.badgen.net/npm/v/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
+[![CircleCI](https://flat.badgen.net/circleci/github/fltwk/grunt-po2mo)](https://circleci.com/gh/fltwk/grunt-po2mo)
 [![David](https://flat.badgen.net/david/dev/fltwk/grunt-po2mo)](https://david-dm.org/fltwk/grunt-po2mo?type=dev)
 
 Compiles `.po` files into binary `.mo` files with `msgfmt`
