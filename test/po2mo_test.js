@@ -3,10 +3,10 @@
 const grunt = require('grunt');
 
 exports.po2mo = {
-  setUp: function(done) {
+  setUp: done => {
     done();
   },
-  stage: function(test) {
+  stage: test => {
     test.expect(1);
 
     const actual = grunt.file.read('tmp/fr.mo');
@@ -15,7 +15,7 @@ exports.po2mo = {
 
     test.done();
   },
-  prod: function(test) {
+  prod: test => {
     test.expect(1);
 
     const expected = grunt.file.exists('tmp/fixtures/fr.po');
