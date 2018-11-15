@@ -22,4 +22,4 @@ jobs:
             - ./node_modules
       - run:
           name: Lint Source
-          command: npm run test
+          command: sudo npm run test
