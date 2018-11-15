@@ -1,29 +1,33 @@
 {
   "name": "@fltwk/grunt-po2mo",
-  "description": "Compiles .po files into binary .mo files with msgfmt.",
   "version": "0.1.0",
+  "description": "Compiles .po files into binary .mo files with msgfmt",
+  "license": "MIT",
+  "scripts": {
+    "lint": "grunt lint",
+    "precommit": "npm run lint",
+    "test": "grunt test"
+  },
+  "main": "Gruntfile.js",
   "homepage": "https://github.com/fltwk/grunt-po2mo",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fltwk/grunt-po2mo.git"
+    "url": "https://github.com/fltwk/grunt-po2mo.git"
   },
   "bugs": {
     "url": "https://github.com/fltwk/grunt-po2mo/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/fltwk/grunt-po2mo/blob/master/LICENSE-MIT"
-    }
+  "keywords": [
+    "gruntplugin",
+    "gettext",
+    "po",
+    "pot",
+    "mo",
+    "localization",
+    "l10n",
+    "internationalization",
+    "i18n"
   ],
-  "main": "Gruntfile.js",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "precommit": "grunt lint",
-    "test": "grunt test"
-  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "grunt": "^1.0.3",
@@ -31,8 +35,5 @@
     "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-eslint": "^21.0.0",
     "husky": "^1.1.4"
-  },
-  "keywords": [
-    "gruntplugin"
-  ]
+  }
 }
