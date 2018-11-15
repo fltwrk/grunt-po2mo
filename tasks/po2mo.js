@@ -11,7 +11,7 @@
 const { spawnSync } = require('child_process');
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('po2mo', 'Compile .po files into binary .mo files with msgfmt.', function() {
+  grunt.registerMultiTask('po2mo', 'Compiles .po files into binary .mo files with msgfmt.', function() {
     const options = this.options({
       deleteSrc: false,
     });
