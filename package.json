@@ -1,6 +1,6 @@
 {
   "name": "@fltwk/grunt-po2mo",
-  "description": "Compile`s .po files into binary .mo files with msgfmt.",
+  "description": "Compiles .po files into binary .mo files with msgfmt.",
   "version": "0.0.0",
   "homepage": "https://github.com/fltwk/grunt-po2mo",
   "repository": {
