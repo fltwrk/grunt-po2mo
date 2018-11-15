@@ -1,9 +1,10 @@
-# dependencies
+# Package Managers
 bower_components/
 node_modules/
-vendor/
-
-# package manager files
 npm-debug.log*
 shrinkwrap.yaml
+vendor/
 yarn-error.log
+
+# Project Specific
+tmp/
