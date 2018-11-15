@@ -2,14 +2,13 @@
  * grunt-po2mo
  * https://github.com/fltwk/grunt-po2mo
  *
- * Copyright (c) 2013 Michele Bertoli, floatwork_
+ * Copyright (c) 2013-2018 Michele Bertoli, floatwork_
  * Licensed under the MIT license.
  */
 
 'use strict';
 
 module.exports = function(grunt) {
-
   // Project configuration.
   grunt.initConfig({
     eslint: {
@@ -66,5 +65,4 @@ module.exports = function(grunt) {
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['lint', 'test']);
-
 };
