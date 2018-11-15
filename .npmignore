@@ -1,0 +1,14 @@
+# Folders
+.circleci/
+.editorconfig
+src/
+test/
+types/
+
+# Files
+.gitignore
+.travis.yml
+Gruntfile
+gulpfile.js
+tsconfig.json
+tslint.json
