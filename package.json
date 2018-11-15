@@ -1,6 +1,6 @@
 {
   "name": "@fltwk/grunt-po2mo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compiles .po files into binary .mo files with msgfmt",
   "license": "MIT",
   "scripts": {
