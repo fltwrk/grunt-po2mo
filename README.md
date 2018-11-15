@@ -38,8 +38,8 @@ grunt.registerTask('default', ['po2mo']);
 
 #### `options.deleteSrc`
 
-Type: `bool`
-Default value: `false`
+Type: `bool`  
+Default value: `false`  
 
 Will delete the source `.po` file.
 
