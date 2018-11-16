@@ -127,7 +127,7 @@ Use fuzzy entries in output
 Type: `bool`  
 Default: `false`  
 
-Will delete the source `.po` file.
+Will delete the source `.po` file after conversion
 
 ## Authors
 
