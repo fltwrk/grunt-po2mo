@@ -78,7 +78,7 @@ Check presence of keyboard accelerators for menu items
 Type: `bool`  
 Default: `false`  
 
-Check that GNU `msgfmt` behaves like X/Open msgfmt`
+Check that GNU `msgfmt` behaves like X/Open `msgfmt`
 
 #### `options.checkDomain`
 
