@@ -50,7 +50,7 @@ grunt.initConfig({
     files: {
       src: 'languages/de_AT.po',
       dest: 'languages/de_AT.mo',
-    },
+    }
   }
 });
 
