@@ -9,7 +9,7 @@ Compiles `.po` files into binary `.mo` files with `msgfmt`
 
 This plugin is largely based on Michele Bertoli's [`grunt-po2mo`](https://www.npmjs.com/package/grunt-po2mo), with some minor differences:
 
-- uses `child_process` instead of `sync-exec`
+- uses no third-party dependencies
 - supports additional options
 - code base is linted with `eslint`
 
