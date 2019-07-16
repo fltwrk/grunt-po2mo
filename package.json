@@ -1,5 +1,5 @@
 {
-  "name": "@fltwk/grunt-po2mo",
+  "name": "@fltwrk/grunt-po2mo",
   "version": "0.2.0",
   "description": "Compiles .po files into binary .mo files with msgfmt",
   "license": "MIT",
@@ -9,13 +9,13 @@
     "test": "grunt test"
   },
   "main": "Gruntfile.js",
-  "homepage": "https://github.com/fltwk/grunt-po2mo",
+  "homepage": "https://github.com/fltwrk/grunt-po2mo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fltwk/grunt-po2mo.git"
+    "url": "https://github.com/fltwrk/grunt-po2mo.git"
   },
   "bugs": {
-    "url": "https://github.com/fltwk/grunt-po2mo/issues"
+    "url": "https://github.com/fltwrk/grunt-po2mo/issues"
   },
   "keywords": [
     "gruntplugin",

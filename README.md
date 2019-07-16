@@ -1,9 +1,9 @@
 # grunt-po2mo
 
-[![npm](https://flat.badgen.net/npm/license/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
-[![npm](https://flat.badgen.net/npm/v/@fltwk/grunt-po2mo)](https://www.npmjs.org/package/@fltwk/grunt-po2mo)
-[![CircleCI](https://flat.badgen.net/circleci/github/fltwk/grunt-po2mo)](https://circleci.com/gh/fltwk/grunt-po2mo)
-[![David](https://flat.badgen.net/david/dev/fltwk/grunt-po2mo)](https://david-dm.org/fltwk/grunt-po2mo?type=dev)
+[![npm](https://flat.badgen.net/npm/license/@fltwrk/grunt-po2mo)](https://www.npmjs.org/package/@fltwrk/grunt-po2mo)
+[![npm](https://flat.badgen.net/npm/v/@fltwrk/grunt-po2mo)](https://www.npmjs.org/package/@fltwrk/grunt-po2mo)
+[![CircleCI](https://flat.badgen.net/circleci/github/fltwrk/grunt-po2mo)](https://circleci.com/gh/fltwrk/grunt-po2mo)
+[![David](https://flat.badgen.net/david/dev/fltwrk/grunt-po2mo)](https://david-dm.org/fltwrk/grunt-po2mo?type=dev)
 
 Compiles `.po` files into binary `.mo` files with `msgfmt`
 
@@ -37,13 +37,13 @@ $ dnf install gettext-devel
 ## Installation
 
 ```sh
-$ npm install @fltwk/grunt-po2mo --save-dev
+$ npm install @fltwrk/grunt-po2mo --save-dev
 ```
 
 ## Usage
 
 ```js
-grunt.loadNpmTasks('@fltwk/grunt-po2mo');
+grunt.loadNpmTasks('@fltwrk/grunt-po2mo');
 
 grunt.initConfig({
   po2mo: {
@@ -132,7 +132,7 @@ Will delete the source `.po` file after conversion
 ## Authors
 
 - [MicheleBertoli](https://github.com/MicheleBertoli/)
-- [floatwork_](https://github.com/fltwk/)
+- [floatwork_](https://github.com/fltwrk/)
 
 ## License
 

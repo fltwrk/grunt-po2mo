@@ -1,8 +1,8 @@
 /*
  * grunt-po2mo
- * https://github.com/fltwk/grunt-po2mo
+ * https://github.com/fltwrk/grunt-po2mo
  *
- * Copyright (c) 2013-2018 Michele Bertoli, floatwork_
+ * Copyright (c) 2013-2019 Michele Bertoli, floatwork_
  * Licensed under the MIT license.
  */
 
