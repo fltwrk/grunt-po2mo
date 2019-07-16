@@ -1,5 +1,5 @@
 {
-  "name": "@fltwrk/grunt-po2mo",
+  "name": "@fltwk/grunt-po2mo",
   "version": "0.2.0",
   "description": "Compiles .po files into binary .mo files with msgfmt",
   "license": "MIT",
