@@ -49,7 +49,6 @@
     "lint-staged": "^13.0.3"
   },
   "lint-staged": {
-    "*.(js|json)": "eslint --cache --fix",
-    "*.md": "prettier --write"
+    "*.(js|json)": "eslint --cache --fix"
   }
 }
