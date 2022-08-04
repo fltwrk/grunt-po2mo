@@ -49,12 +49,12 @@ $ npm install @floatwork/grunt-po2mo --save-dev
 grunt.loadNpmTasks('@floatwork/grunt-po2mo');
 
 grunt.initConfig({
-  po2mo: {
-    files: {
-      src: 'languages/de_AT.po',
-      dest: 'languages/de_AT.mo',
-    }
-  }
+	po2mo: {
+		files: {
+			src: 'languages/de_AT.po',
+			dest: 'languages/de_AT.mo',
+		}
+	}
 });
 
 grunt.registerTask('default', ['po2mo']);
