@@ -20,8 +20,12 @@ You will need `msgfmt` installed in order for this task to work
 ### macOS
 
 ```sh
+# Homebrew
 $ brew install gettext
 $ brew link --force gettext
+
+# MacPorts
+$ sudo port install gettext
 ```
 
 ### Linux
