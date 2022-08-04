@@ -24,9 +24,10 @@ jobs:
         sudo apt-get -y update
         sudo apt-get -y install gettext
 
-    - name: Print gettext version
+    - name: Print versions
       run:   |
         gettext --version
+        msgfmt --version
 
     - name: Cache pnpm modules
       uses: actions/cache@v2
