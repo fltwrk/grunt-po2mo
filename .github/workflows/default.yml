@@ -15,10 +15,18 @@ jobs:
       with:
         fetch-depth: 4
 
+    - uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
     - name: Install gettext
       run:   |
         sudo apt-get -y update
         sudo apt-get -y install gettext
+
+    - name: Print gettext version
+      run:   |
+        gettext --version
 
     - name: Cache pnpm modules
       uses: actions/cache@v2
@@ -34,10 +42,6 @@ jobs:
         run_install: |
           - recursive: true
           - args: [--frozen-lockfile, --strict-peer-dependencies]
-
-    - uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
 
     - name: Lint Source
       run: pnpm run lint --if-present
