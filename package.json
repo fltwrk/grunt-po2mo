@@ -11,6 +11,7 @@
   "main": "Gruntfile.js",
   "files": [
     "tasks/",
+    "Gruntfile.js",
     "LICENSE",
     "README.md"
   ],
