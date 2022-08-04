@@ -1,6 +1,6 @@
 {
   "name": "@floatwork/grunt-po2mo",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Compiles .po files into binary .mo files with msgfmt",
   "license": "MIT",
   "scripts": {
