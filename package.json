@@ -16,7 +16,10 @@
     "LICENSE",
     "README.md"
   ],
-  "homepage": "https://github.com/fltwrk/grunt-po2mo",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/fltwrk/grunt-po2mo#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/fltwrk/grunt-po2mo.git"
