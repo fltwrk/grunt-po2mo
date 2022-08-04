@@ -9,6 +9,11 @@
     "test": "grunt test"
   },
   "main": "Gruntfile.js",
+  "files": [
+    "tasks/",
+    "LICENSE",
+    "README.md"
+  ],
   "homepage": "https://github.com/fltwrk/grunt-po2mo",
   "repository": {
     "type": "git",
