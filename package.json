@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "grunt lint",
     "precommit": "npm run lint",
+    "prepare": "husky install",
     "test": "grunt test"
   },
   "main": "Gruntfile.js",
@@ -36,10 +37,16 @@
   ],
   "devDependencies": {
     "eslint": "^8.21.0",
+    "eslint-plugin-json": "^3.1.0",
     "grunt": "^1.5.3",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-nodeunit": "^4.0.0",
     "grunt-eslint": "^24.0.0",
-    "husky": "^3.1.0"
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "lint-staged": {
+    "*.(js|json)": "eslint --cache --fix",
+    "*.md": "prettier --write"
   }
 }
