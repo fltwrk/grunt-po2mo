@@ -12,9 +12,6 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     eslint: {
-      options: {
-        configFile: '.eslintrc',
-      },
       target: ['tasks/po2mo.js']
     },
 
