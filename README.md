@@ -39,7 +39,7 @@ $ dnf install gettext-devel
 
 ### Windows
 
-```sh
+```powershell
 $ scoop bucket add main
 $ scoop install main/gettext
 ```
