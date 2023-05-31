@@ -37,6 +37,13 @@ $ sudo apt-get install gettext
 $ dnf install gettext-devel
 ```
 
+### Windows
+
+```sh
+$ scoop bucket add main
+$ scoop install main/gettext
+```
+
 ## Installation
 
 ```sh
