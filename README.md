@@ -2,13 +2,9 @@
 
 > Compiles .po files into binary .mo files with `msgfmt`
 
-[![npm](https://flat.badgen.net/npm/license/@floatwork/grunt-po2mo)](https://www.npmjs.org/package/@floatwork/grunt-po2mo)
-[![npm](https://flat.badgen.net/npm/v/@floatwork/grunt-po2mo)](https://www.npmjs.org/package/@floatwork/grunt-po2mo)
-[![CI](https://img.shields.io/github/actions/workflow/status/fltwrk/grunt-po2mo/default.yml?style=flat-square)](https://github.com/fltwrk/grunt-po2mo/actions)
-
-[![License](https://img.shields.io/github/license/idleberg/svelte-crossorigin-store?color=blue&style=for-the-badge)](https://github.com/idleberg/svelte-crossorigin-store/blob/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/svelte-crossorigin-store?style=for-the-badge)](https://www.npmjs.org/package/@floatwork/grunt-po2mo)
-[![CI](https://img.shields.io/github/actions/workflow/status/idleberg/svelte-crossorigin-store/test.yml?style=for-the-badge)](https://github.com/idleberg/svelte-crossorigin-store/actions)
+[![License](https://img.shields.io/github/license/fltwrk/grunt-po2mo?color=blue&style=for-the-badge)](https://github.com/fltwrk/grunt-po2mo/blob/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@floatwork/grunt-po2mo?style=for-the-badge)](https://www.npmjs.org/package/@floatwork/grunt-po2mo)
+[![CI](https://img.shields.io/github/actions/workflow/status/fltwrk/grunt-po2mo/test.yml?style=for-the-badge)](https://github.com/fltwrk/grunt-po2mo/actions)
 
 This plugin is largely based on Michele Bertoli's [`grunt-po2mo`](https://www.npmjs.com/package/grunt-po2mo), with some minor differences:
 
