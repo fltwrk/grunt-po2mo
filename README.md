@@ -16,7 +16,8 @@ This plugin is largely based on Michele Bertoli's [`grunt-po2mo`](https://www.np
 
 You will need `msgfmt` installed in order for this task to work
 
-### macOS
+<details>
+<summary><strong>macOS</strong></summary>
 
 ```sh
 # Homebrew
@@ -26,8 +27,10 @@ $ brew link --force gettext
 # MacPorts
 $ sudo port install gettext
 ```
+</details>
 
-### Linux
+<details>
+<summary><strong>Linux</strong></summary>
 
 ```sh
 # Debian
@@ -36,13 +39,16 @@ $ sudo apt-get install gettext
 # Fedora
 $ dnf install gettext-devel
 ```
+</details>
 
-### Windows
+<details>
+<summary><strong>Windows</strong></summary>
 
 ```sh
 $ scoop bucket add main
 $ scoop install main/gettext
 ```
+</details>
 
 ## Installation
 
