@@ -9,6 +9,14 @@
 "use strict";
 
 module.exports = function (grunt) {
+	const po2mOptions = {
+		options: {
+			deleteSrc: true,
+		},
+		src: "tmp/fixtures/fr.po",
+		dest: "tmp/fr.mo",
+	};
+
 	// Project configuration.
 	grunt.initConfig({
 		eslint: {
@@ -22,21 +30,8 @@ module.exports = function (grunt) {
 
 		// Configuration to be run (and then tested).
 		po2mo: {
-			stage: {
-				src: "test/fixtures/fr.po",
-				dest: "tmp/fr.mo",
-				options: {
-					noConvert: true,
-				}
-			},
-			prod: {
-				options: {
-					noConvert: true,
-					deleteSrc: true,
-				},
-				src: "tmp/fixtures/fr.po",
-				dest: "tmp/fr.mo",
-			},
+			stage: po2mOptions,
+			prod: po2mOptions,
 		},
 
 		// Unit tests.
