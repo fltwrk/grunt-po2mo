@@ -98,6 +98,7 @@ module.exports = function (grunt) {
 				}
 
 				if (options.deleteSrc) {
+					grunt.verbose.writeln("Deleting source file:", src);
 					grunt.file.delete(src);
 				}
 			});
