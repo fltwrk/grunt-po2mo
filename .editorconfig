@@ -1,3 +1,5 @@
+root = true
+
 [*]
 charset = utf-8
 indent_size = 2
@@ -12,3 +14,6 @@ block_comment_end = */
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.{yaml,yml}]
+indent_style = space
