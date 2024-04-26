@@ -24,7 +24,9 @@ module.exports = function (grunt) {
 				checkHeader: false,
 				deleteSrc: false,
 				endianness: null,
+				noConvert: false,
 				noHash: false,
+				noRedundancy: false,
 				useFuzzy: false,
 			});
 
@@ -68,8 +70,16 @@ module.exports = function (grunt) {
 					args.unshift("--endianness", options.endianness);
 				}
 
+				if (options.noConvert) {
+					args.unshift("--no-convert");
+				}
+
 				if (options.noHash) {
 					args.unshift("--no-hash");
+				}
+
+				if (options.noRedundancy) {
+					args.unshift("--no-redundancy");
 				}
 
 				if (options.useFuzzy) {

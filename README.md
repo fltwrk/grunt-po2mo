@@ -118,12 +118,26 @@ Default: `null`
 
 Write out 32-bit numbers in the given byte order (big or little, default depends on platform)
 
+#### `options.noConvert`
+
+Type: `bool`  
+Default: `false`  
+
+Don't convert the messages to UTF-8 encoding
+
 #### `options.noHash`
 
 Type: `bool`  
 Default: `false`  
 
 Binary file will not include the hash table 
+
+#### `options.noRedundancy`
+
+Type: `bool`  
+Default: `false`  
+
+Don't pre-expand ISO C 99 `<inttypes.h>` format string directive macros
 
 #### `options.useFuzzy`
 

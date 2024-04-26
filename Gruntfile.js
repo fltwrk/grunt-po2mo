@@ -22,13 +22,10 @@ module.exports = function (grunt) {
 
 		// Configuration to be run (and then tested).
 		po2mo: {
-			stage: {
-				src: "test/fixtures/fr.po",
-				dest: "tmp/fr.mo",
-			},
 			prod: {
 				options: {
 					deleteSrc: true,
+					noConvert: true,
 				},
 				src: "tmp/fixtures/fr.po",
 				dest: "tmp/fr.mo",
