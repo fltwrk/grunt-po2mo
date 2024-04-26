@@ -5,9 +5,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "grunt lint",
-    "precommit": "npm run lint",
     "prepare": "husky",
-    "test": "grunt test"
+    "test": "grunt test --verbose"
   },
   "main": "Gruntfile.js",
   "files": [
