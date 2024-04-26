@@ -10,9 +10,6 @@
 
 module.exports = function (grunt) {
 	const po2mOptions = {
-		options: {
-			deleteSrc: true,
-		},
 		src: "tmp/fixtures/fr.po",
 		dest: "tmp/fr.mo",
 	};
