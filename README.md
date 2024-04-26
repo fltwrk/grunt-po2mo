@@ -6,6 +6,10 @@
 [![npm](https://flat.badgen.net/npm/v/@floatwork/grunt-po2mo)](https://www.npmjs.org/package/@floatwork/grunt-po2mo)
 [![CI](https://img.shields.io/github/actions/workflow/status/fltwrk/grunt-po2mo/default.yml?style=flat-square)](https://github.com/fltwrk/grunt-po2mo/actions)
 
+[![License](https://img.shields.io/github/license/idleberg/svelte-crossorigin-store?color=blue&style=for-the-badge)](https://github.com/idleberg/svelte-crossorigin-store/blob/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/svelte-crossorigin-store?style=for-the-badge)](https://www.npmjs.org/package/@floatwork/grunt-po2mo)
+[![CI](https://img.shields.io/github/actions/workflow/status/idleberg/svelte-crossorigin-store/test.yml?style=for-the-badge)](https://github.com/idleberg/svelte-crossorigin-store/actions)
+
 This plugin is largely based on Michele Bertoli's [`grunt-po2mo`](https://www.npmjs.com/package/grunt-po2mo), with some minor differences:
 
 - uses no third-party dependencies
