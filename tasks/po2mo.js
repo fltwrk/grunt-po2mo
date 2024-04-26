@@ -32,7 +32,7 @@ module.exports = function (grunt) {
 				const src = file.src[0];
 				let dest = file.dest;
 
-				if (dest.indexOf(".po") > -1) {
+				if (dest.endsWith(".po")) {
 					dest = dest.replace(".po", ".mo");
 				}
 
